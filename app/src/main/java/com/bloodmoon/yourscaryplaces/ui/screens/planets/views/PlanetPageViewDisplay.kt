@@ -1,7 +1,6 @@
 package com.bloodmoon.yourscaryplaces.ui.screens.planets.views
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.gestures.scrollable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
