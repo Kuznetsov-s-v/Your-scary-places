@@ -5,6 +5,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import com.bloodmoon.yourscaryplaces.R
 
@@ -30,16 +31,6 @@ val Typography = Typography(
         lineHeight = 28.sp,
         letterSpacing = 0.sp
     ),
-    /* Other default text styles to override
-
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
 )
 
 val CustomTypography = Typography(
@@ -57,4 +48,25 @@ val CustomTypography = Typography(
         lineHeight = 28.sp,
         letterSpacing = 0.sp
     ),
+)
+
+val PlanetCardTypography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Medium,
+        fontSize = 16.sp,
+        lineHeight = 18.75.sp,
+        letterSpacing = 0.5.sp
+    )
+)
+
+val PlanetsViewDisplayTypography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight(700),
+        fontSize = 24.sp,
+        lineHeight = 28.13.sp,
+        textAlign = TextAlign.Center
+        //letterSpacing = 0.5.sp
+    )
 )
